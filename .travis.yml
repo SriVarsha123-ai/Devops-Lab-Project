@@ -4,6 +4,6 @@ jdk:
 
 script:
   - echo "Compiling Java files..."
-  - javac HelloWorld.java HelloWorldTest.java
+  - javac HelloWorld.java Test.java
   - echo "Running tests..."
-  - java HelloWorldTest
+  - java Test
