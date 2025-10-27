@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk17
+
+script:
+  - echo "Compiling Java files..."
+  - javac HelloWorld.java HelloWorldTest.java
+  - echo "Running tests..."
+  - java HelloWorldTest
